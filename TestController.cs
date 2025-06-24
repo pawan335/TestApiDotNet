@@ -8,6 +8,7 @@ namespace MyApp.Namespace
     [ApiController]
     public class TestController : ControllerBase
     {
+        private string password = "SuperSecret123"; // 🔐 security hotspot
          private static readonly List<string> Products = new List<string>
         {
             "Laptop",
@@ -19,6 +20,8 @@ namespace MyApp.Namespace
         [HttpGet]
         public ActionResult<IEnumerable<string>> GetAllProducts()
         {
+            string data = null;
+            int len = data.Length;
             if (Products.Count == 0)
             {
                 // Returns HTTP 404 Not Found if the list is empty
