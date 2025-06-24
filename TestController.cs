@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading; // Unused import - will be flagged
 
 namespace MyApp.Namespace
 {
@@ -23,7 +24,10 @@ namespace MyApp.Namespace
                 // Returns HTTP 404 Not Found if the list is empty
                 return NotFound("No products found.");
             }
-
+            if (Products.Count > 0)
+            {
+                return Ok(Products);
+            }
             // Returns HTTP 200 OK with the product list
             return Ok(Products);
         }
