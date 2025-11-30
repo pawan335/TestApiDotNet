@@ -20,6 +20,9 @@ namespace MyApp.Namespace
         [HttpGet]
         public ActionResult<IEnumerable<string>> GetAllProducts()
         {
+            string test = "data1";
+            string test2 = "data1";
+            string test3 = "data2";
             string data = null;
             int len = data.Length;
             if (Products.Count == 0)
