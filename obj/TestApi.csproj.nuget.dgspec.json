@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Tutorial\\ASPDotNetCore\\TestApi\\TestApi.csproj": {}
+    "C:\\gitTutorial\\TestApiDotnet\\TestApi.csproj": {}
   },
   "projects": {
-    "C:\\Tutorial\\ASPDotNetCore\\TestApi\\TestApi.csproj": {
+    "C:\\gitTutorial\\TestApiDotnet\\TestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Tutorial\\ASPDotNetCore\\TestApi\\TestApi.csproj",
+        "projectUniqueName": "C:\\gitTutorial\\TestApiDotnet\\TestApi.csproj",
         "projectName": "TestApi",
-        "projectPath": "C:\\Tutorial\\ASPDotNetCore\\TestApi\\TestApi.csproj",
+        "projectPath": "C:\\gitTutorial\\TestApiDotnet\\TestApi.csproj",
         "packagesPath": "C:\\Users\\pawan\\.nuget\\packages\\",
-        "outputPath": "C:\\Tutorial\\ASPDotNetCore\\TestApi\\obj\\",
+        "outputPath": "C:\\gitTutorial\\TestApiDotnet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\pawan\\AppData\\Roaming\\NuGet\\NuGet.Config",
